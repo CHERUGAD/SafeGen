@@ -1,0 +1,63 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pkl
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment and dependency folders
+env/
+venv/
+.venv/
+
+# OS and editor-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Model files
+*.safetensors
+*.pt
+*.h5
+*.ckpt
+*.onnx
+
+# Tokenizer and HF configs
+tokenizer_config.json
+special_tokens_map.json
+*.json
+*.txt
+
+# Hugging Face transformers cache
+~/.cache/
+~/.huggingface/
+
+# Streamlit
+.streamlit/
+
+# Data and outputs
+data/raw/
+data/preference_safety/
+outputs/
+*.csv
+
+# Secrets and credentials
+*.env
+.env.*
+secrets.*
+
+# Logs and debug
+*.log
+logs/
+debug/
+
+# Ignore built/compiled API artifacts
+api/__pycache__/
+app/__pycache__/
+training/__pycache__/
+
+# Ignore test cache
+tests/__pycache__/
